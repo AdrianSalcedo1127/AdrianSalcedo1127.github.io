@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Weather Application</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Weather Appi</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Skills</a></li>
+							<li class="active"><a href="generic.html">Weather APPI</a></li>
+							<li><a href="elements.html">Traveler Checker</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/adrianjosesalcedobolanos" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+								
+									<h1>Weather API<br />
+									</h1>
+									<p>In this project, the main objective was to create a website that, takes
+										real time information of weather, humidity and wind speed from a open source APPI called
+										Open Weather. This is a really simple website but it cointains a lot of basic and advance 
+										concepts that a web developer should know. In the following section some of the code and the diffente parts
+										of the website will be explained. 
+										The main objective of showing this projects is to give an overview of handling REST request and how to used
+										public open source API in order to build a responsive website that is user friendly.
+									</p>
+								</header>
+
+								<h2>Front-End Stage	</h2>
+
+								<ul>
+									<li>
+										The first stage is design the front end, for this part two archives were made, the ejs that cointains all the html structure
+										and some of the functionalities that can be inserted thanks to EJS, and de CSS file to give some format and a attractive design in order to
+										make the user feel confortable using the webiste. In the following images the user interface can be checked both in an initial state, and after 
+										the user makes a request.
+									</li>
+								</ul>
+								<div class="image main"><img src="images/Weather/initialrequest.JPG" alt="" /></div>
+								
+								<div class="image main"><img src="images/Weather/cali.JPG" alt="" /></div>
+								
+								<ul>
+									<li>
+										In the ejs file is important to hightlight that thanks to EJS the data that comes from 
+										the back-end side can be display in the user interface, but also some code can be written in order to
+										process more deeply data and get better results. In the following picture some of the code is shown with several examples of the 
+										utility of using a EJS file instead of a pure HTML file.
+
+									</li>
+									<div class="image main"><img src="images/Weather/front end.JPG" alt="" /></div>
+								
+								
+								</ul>
+
+								<h2> Back-End Stage</h2>
+								<ul>
+									<li>
+										
+										<p>In this stage JavaScript was used to code the backend and all the functionalities and the bridge to connect the front-end Stage
+											with the back-end and the open weather api. In the following image, the imports used are shown such as express axios to make the REST API request
+											and the body passer to access and show the information to the user in the front end. In this project instead of the typical HTML format, a EJS type was
+											used to be able to inject directly code inside the HTML structure.<p>
+									</li>
+								</ul>
+								<div class="image main"><img src="images/Weather/imports.JPG" alt="" /></div>
+								
+								<div class="image main"><img src="images/Weather/RESTAPI.JPG" alt="" /></div>
+								<ul>
+								<li><p>Another important part of the back-end is the error handling part, and how it gives an appropiate
+									feedback to the user, in order to improve the user experince in the following image some of the code used to
+									handle some error is shown.
+
+								</p></li></ul>
+								<div class="image main"><img src="images/Weather/error.JPG" alt="" /></div>
+							
+							</section>
+
+					</div>
+
+						<!-- Footer -->
+						<footer id="footer">
+						
+							<section class="split contact">
+								<section class="alt">
+									<h3>Address</h3>
+									<p>Sinchon 1gil 96-6  
+										Seodaemun-gu, Seoul<br />
+									Seoul, Republic of Korea<br />
+									Postal code: 03783</p>
+								</section>
+								<section>
+									<h3>Phone</h3>
+									<p><a href="#">(+82) 010-3442-2711</a></p>
+								</section>
+								<section>
+									<h3>Email</h3>
+									<p><a href="#">asalcedo1127@gmail.com</a></p>
+								</section>
+								<section>
+									<h3>Social</h3>
+									<ul class="icons alt">
+										<li><a href="https://www.linkedin.com/in/adrianjosesalcedobolanos" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							
+										<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									</ul>
+								</section>
+							</section>
+						</footer>
+	
+					<!-- Copyright -->
+				</div>
+	
+			<!-- Scripts -->
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/jquery.scrollex.min.js"></script>
+				<script src="assets/js/jquery.scrolly.min.js"></script>
+				<script src="assets/js/browser.min.js"></script>
+				<script src="assets/js/breakpoints.min.js"></script>
+				<script src="assets/js/util.js"></script>
+				<script src="assets/js/main.js"></script>
+	</body>
+</html>
